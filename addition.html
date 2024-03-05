@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Math Games Website</h1>
+        </header>
+        <main>
+            <div class="sidebar">
+                <ul>
+                    <a href="index.html"><li>Math game</li></a>
+                    <a href="subtraction.html"><li>Subtraction game</li></a>
+                    <a href="divide.html"><li>Divide gmae</li></a>
+                </ul>
+            </div>
+            <div class="content">
+                <h2>let's see how good you are in Maths</h2>
+                <div class="game-container">
+                    <h3 id="score">Score :0</h3>
+                    <div class="box-container">
+                        <div id="box1">1</div>
+                        <div id="sign">+</div>
+                        <div id="box2">1</div>
+                    </div>
+                    <div class="ans-container">
+                        <input id="userInp"type="text" placeholder="write your answer here" required autofocus>
+                        <input id="btn" type="submit" value="Check" onclick="checkAnswerAddition()">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>All Right Reserved @2024</footer>
+
+    </div>
+    <script src="addition.js"></script>
+</body>
+</html>
